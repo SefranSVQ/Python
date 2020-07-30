@@ -76,4 +76,51 @@ pokemon.remove("Pikachu") # Elimina el elemento introducido. Tambien puedes intr
 pokemon.pop() # Elimina el último elemento de la lista.
 pokemon=pokemon*2 # Se pueden añadir una cantidad definida de veces los elementos a una lista.
 
+print(len(pokemon)) # Para saber la longitud de una lista hay que usar la función Len(), no existe un método.
+
 print(pokemon)
+
+
+# Tuplas
+#   - Son listas inmutables -> no se pueden modificar tras su creación.
+#   - Permiten comprobar si un elemento existe dentro de ella.
+#   - Sus ventajas principales son: más rápida, menor espacio en memoria, formatean strings y pueden usarse como claves de un diccionario.
+# Sintaxis: tupla=(elemento1,elemento2,...) -> Se pueden omitir los paréntesis, aunque es recomendable usarlos.
+
+tupla=("Sefran",2,9,1992)
+
+# Desempaquetado de tupla
+nombre,día,mes,anyo=tupla
+
+print(tupla)
+print(nombre)
+print(día)
+print(mes)
+print(anyo)
+
+# Diccionarios
+#   - Estructura de datos similar a las anteriores. 
+#   - Su principal característica principal es la asociación de claves a cada uno de sus valores.
+#   - como en el resto de las estructuras anteriores, se pueden incluir distintos tipos y estructuras de datos dentro de ella
+# Sintaxis: diccionario={clave1:elem1,clave2:elem2,...}
+
+diccionario = {1:"Bulbasaur",2:"Ivysaur",3:"Venusaur"}
+
+print(diccionario)
+print(diccionario.get(2))
+
+# Introducción de un elemento
+diccionario[4]="Squirtle"
+
+print(diccionario)
+
+# Modificación de un elemento
+diccionario[4]="Charmander"
+
+print(diccionario)
+
+# Solo las claves
+print(diccionario.keys())
+
+# Solo los valores
+print(diccionario.values())
