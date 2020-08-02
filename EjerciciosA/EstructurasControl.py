@@ -56,6 +56,7 @@ for i in "hola","Adios":
 
 """
 
+"""
 #Bucles while
 
 iterar = True
@@ -68,3 +69,10 @@ while iterar:
         iterar=False
         
 print("Correcto!")
+"""
+
+# Llamada al generadorPokemon()
+
+for i in range(151):
+    print(next(Funciones.generadorPokemon(i)))
+    print("Espacio en memoria: "+str(Funciones.generadorPokemon(i))) #Aqui podemos observar como siempre usa el mismo espacio en memoria
