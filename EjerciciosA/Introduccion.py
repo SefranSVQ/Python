@@ -33,7 +33,7 @@ booleano = True
 # - Asignación: =, +=, -=,...
 # - Lógicos y Especiales: AND, OR, NOT, IS, IS NOT, IN, NOT IN...
 
-# Para concatenar distintos tipos de datos en una cadena, debemos usar la función str() en cada uno de los valores a introducir en dicha cadena.
+# Para concatenar distintos tipos de datos en una cadena, debemos castear al tipo de dato string con la función str() en cada uno de los valores a introducir en dicha cadena.
 print ("Ejemplos de tipos de datos: "+str(entero)+" - "+str(decimal)+" - "+cadena+" - "+str(booleano))
 
 # Función type() -> nos permite saber el tipo de dato almacenado en una variable.
