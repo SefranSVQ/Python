@@ -20,6 +20,15 @@ def suma(num1,num2):
     result = num1+num2
     return result
 
+def division(num1,num2):    # Uso de excepción para capturar problemas, como las divisiones entre 0
+    try:
+        result = num1/num2
+    except:     # si se usa except solamente, capturará todas las opciones de errores, si usas except nombre_excepcion, lanzará el bloque solo cuando pase dicho error
+        result = "error, introduzca valores válidos"
+        # No es necesario el bloque finally en este caso.
+    return result
+
+
 def pokemonIniciales():
     pokemon={1:"Bulbasaur",2:"Charmander",3:"Squirtle",4:"Pikachu",5:"Eevee",6:"Clefairy"}
     return pokemon

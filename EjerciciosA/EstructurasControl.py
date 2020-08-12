@@ -71,8 +71,17 @@ while iterar:
 print("Correcto!")
 """
 
+"""
 # Llamada al generadorPokemon()
 
 for i in range(151):
     print(next(Funciones.generadorPokemon(i)))
     print("Espacio en memoria: "+str(Funciones.generadorPokemon(i))) #Aqui podemos observar como siempre usa el mismo espacio en memoria
+"""
+
+
+# Llamada a la funcion "Division", la cual contiene un bloque try-except
+
+result = Funciones.division(2,0)
+
+print(str(result))
