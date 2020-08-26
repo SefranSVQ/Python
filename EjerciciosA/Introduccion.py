@@ -15,7 +15,10 @@
 # Inicio
 
 #Ficheros importados
-import Funciones
+
+#from Funciones import * # Para importarlo todo sin necesidad de llamar al fichero
+
+from Funciones import suma,holamundo
 
 # Función print() -> imprimir por pantalla
 print("Hola mundo") 
@@ -45,9 +48,9 @@ print (type(booleano))
 
 #Llamadas a funciones alojadas en el fichero "funciones"
 print("Llamadas a funciones:")
-Funciones.holamundo()
+holamundo()
 
-resultado = Funciones.suma(1,4)
+resultado = suma(1,4)
 print (str(resultado))
 
 # Listas
