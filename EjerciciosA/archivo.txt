@@ -1,0 +1,4 @@
+Probando la introducción de una cadena en un fichero. 
+Probando la introducción de una cadena en un fichero.
+tercera línea del archivo
+Esto es otra línea
